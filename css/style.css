@@ -242,9 +242,6 @@ section {
     margin: auto;
 }
 
-
-
-
 /* #endregion planningCARD_12 */
 
 /* #endregion planningGRID */
@@ -254,6 +251,16 @@ section {
 .card_testimonial {
     margin: 1rem 0;
 }
+
+.txt_committed{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;   
+}
+
+
+
 
 
 /* #endregion testimonial */
