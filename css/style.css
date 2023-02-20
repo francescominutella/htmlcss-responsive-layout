@@ -13,9 +13,62 @@
     --secondary: rgba(51, 51, 51, 1);
 }
 
+/* #region DEBUG */
+.dbg header{
+    height: 50%;
+}
+
+/* #endregion DEBUG */
 
 /* #region HEADER */
+#app_header{
+    background-color: var(--primary);
 
-
+}
 
 /* #endregion HEADER */
+
+/*region MAIN */
+
+.row{
+    display: flex;
+}
+
+.col_1{
+    width: calc(100% / 12 * 1);
+}
+.col_1{
+    width: calc(100% / 12 * 1);
+}
+.col_1{
+    width: calc(100% / 12 * 1);
+}
+.col_1{
+    width: calc(100% / 12 * 1);
+}
+.col_1{
+    width: calc(100% / 12 * 1);
+}
+.col_1{
+    width: calc(100% / 12 * 1);
+}
+.col_1{
+    width: calc(100% / 12 * 1);
+}
+.col_1{
+    width: calc(100% / 12 * 1);
+}
+.col_1{
+    width: calc(100% / 12 * 1);
+}
+.col_1{
+    width: calc(100% / 12 * 1);
+}
+.col_1{
+    width: calc(100% / 12 * 1);
+}
+.col_1{
+    width: calc(100% / 12 * 1);
+}
+
+/*endregion MAIN */
