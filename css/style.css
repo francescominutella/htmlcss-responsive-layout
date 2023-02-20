@@ -14,11 +14,14 @@
     --secondary: rgba(51, 51, 51, 1);
 }
 
-
-
 /* #endregion UTILITY */
 
 /* #region COMMON */
+.logo_cards{
+    max-width: 1152px;
+    margin: auto;
+}
+
 
 [class^="col_"]{
     padding: 0 1rem;
@@ -51,6 +54,7 @@
 /* #region logoGRID */
 .row{
     display: flex;
+    flex-wrap: wrap;
 }
 .col_1{
     width: calc(100% / 12 * 1);
