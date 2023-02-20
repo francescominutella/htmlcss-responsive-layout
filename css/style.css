@@ -259,6 +259,10 @@ section {
     gap: 1rem;   
 }
 
+.face {
+    width: 30%;
+    border-radius: 50;
+}
 
 
 
