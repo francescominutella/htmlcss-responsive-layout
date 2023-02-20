@@ -32,7 +32,7 @@
 }
 
 section{
-    padding: 2rem;
+    padding: 2rem 0;
 }
 
 .planning, .benefit{
@@ -43,9 +43,7 @@ section{
 
 
 /* #region DEBUG */
-.dbg header {
-    height: 50%;
-}
+
 
 .dbg [class^="col_"] {
     height: 400px;
@@ -71,7 +69,9 @@ section{
 /* #region HEADER */
 #app_header {
     background-color: var(--primary);
+    padding: 0.5rem 0;
 }
+
 
 /* #endregion HEADER */
 
