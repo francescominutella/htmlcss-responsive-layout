@@ -95,3 +95,19 @@
 /* #endregion logoGRID */
 
 /*endregion MAIN */
+
+
+/* #region MEDIAquery */
+
+@media screen and (min-widht:768px){
+
+    .col_md4{
+        width: calc(100% / 12 *4);
+    }
+    .col_md8{
+        width: calc(100% / 12 *8);
+    }
+
+}
+
+/* #endregion MEDIAquery */
