@@ -194,7 +194,6 @@ section {
 
 /* #region logoCARD_12img */
 
-
 .logo_cards .card {
     background-color: var(--cards);
     border-radius: 50px;
@@ -406,6 +405,8 @@ text-decoration: none;
         width: calc(100% / 12 * 12);
         /* TABLET */
     }
+
+
 }
 
 /* #endregion min1200px */
