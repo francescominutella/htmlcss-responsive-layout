@@ -262,7 +262,7 @@ text-decoration: none;
     background-color: var(--secondary);
 }
 
-.txt_committed {
+.txt_committed { 
     text-align: center;
     display: flex;
     flex-direction: column;
