@@ -228,6 +228,15 @@ section {
     padding: 1rem;
 }
 
+.logo_cards .card .row{
+    margin: 0 -1rem;
+}
+
+.logo_cards .card img{
+    position: relative;
+    top: 84px;
+}
+
 .logo_cards h4 {
     color: var(--primary);
     padding: 0.5rem 2rem;
@@ -266,6 +275,9 @@ section {
 }
 
 
+
+
+
 /* #endregion logoCARDs */
 
 
@@ -289,6 +301,8 @@ section {
 .testimonial .card {
     margin: 1rem 0;
     background-color: var(--secondary);
+    border-radius: 50px;
+    padding: 1rem;
 }
 
 .txt_committed {
@@ -297,6 +311,10 @@ section {
     flex-direction: column;
     gap: 1rem;
 }
+
+.bio p, .bio strong{
+color: var(--light);
+} 
 
 
 
