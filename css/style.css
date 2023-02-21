@@ -321,7 +321,7 @@ section {
 
 /* #endregion about */
 
-/* #region container_sm */
+/* #region call_to_action */
 
 .call_to_action {
     background-color: var(--secondary);
@@ -339,13 +339,38 @@ section {
     padding-bottom: 1rem;
 }
 
+.container_sm h3 {
+    padding-bottom: 1rem;
+    font-size: 30px;
+    color: var(--light)
+}
+.container_sm h2 {
+    padding-bottom: 1rem;
+    font-size: 50px;
+    color: var(--free)
+}
+.container_sm p {
+    padding-bottom: 1rem;
+    color: var(--light)
+}
+
 .btn_light {
     font-weight: bold;
     background-color: var(--light);
     color: var(--secondary);
 }
 
-/* #endregion container_sm */
+.copyright{
+    padding-top: 1rem;
+}
+.copyright i{
+    scale: 0.4;
+}
+.copyright a{
+    color: var(--light);
+}
+
+/* #endregion call_to_action */
 
 
 
