@@ -146,6 +146,7 @@ section {
 }
 #app_header .container i {
     display: block;
+    color: var(--light);
 }
 #app_header .container nav{
     display: flex;
@@ -224,16 +225,17 @@ section {
     background-color: var(--cards);
     border-radius: 50px;
     height: 100%;
+    padding: 1rem;
 }
 
 .logo_cards h4 {
     color: var(--primary);
     padding: 0.5rem 2rem;
-    text-align: left;
+    text-align: center;
 }
 
 .logo_cards p {
-    line-height: 1.75rem;
+    line-height: 2rem;
     padding: 0.5rem 2rem;
     text-align: left;
     color: var(--dark);
