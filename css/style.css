@@ -75,16 +75,6 @@ section {
     border: 1px solid black;
 }
 
-.dbg .txt_committed {
-    height: 200px;
-    background-color: cadetblue;
-}
-
-.dbg .card_testimonial {
-    height: 200px;
-    background-color: cadetblue;
-}
-
 .dbg .cta {
     background-color: var(--secondary);
 }
@@ -267,6 +257,7 @@ section {
 
 
 
+
 /* #endregion testimonial */
 
 /*endregion MAIN */
@@ -334,6 +325,13 @@ section {
     .col_md_12 {
         width: calc(100% / 12 * 12);
         /* TABLET */
+    }
+    .card_lg_phone{
+        display: block;
+    }
+    .card_w60, .card_40 {
+        width: 100%;
+        margin: 0;
     }
 }
 
