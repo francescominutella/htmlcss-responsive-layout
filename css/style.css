@@ -146,8 +146,12 @@ section {
 }
 #app_header .container i {
     display: block;
-    text-align: right;
 }
+#app_header .container nav{
+    display: flex;
+    justify-content: space-between;
+}
+
 
 /* header@medi */
 
