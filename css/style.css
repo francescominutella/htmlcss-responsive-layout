@@ -50,9 +50,9 @@ img {
     text-decoration: none;
 }
 
-/* [class^="col_"] {
-    padding: 0 1rem;
-} */
+[class^="col_"] {
+    padding: 0.5rem 0.5rem;
+}
 
 section {
     padding: 2rem 0;
@@ -282,8 +282,9 @@ text-decoration: none;
 /* #region benefit */
 
 .benefit .card {
-    margin: 1rem 0;
     background-color: var(--light);
+    padding: 2.5rem;
+    border-radius: 20px;
 }
 
 .btn_secondary {
