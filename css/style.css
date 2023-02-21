@@ -295,6 +295,17 @@ text-decoration: none;
 
 /* #endregion benefit */
 
+/* #region about */
+
+.about{
+    padding: 2.25rem;
+}
+.about h2, .about p{
+    padding: 0.75rem 0;
+}
+/* #endregion about */
+
+
 /*endregion MAIN */
 
 /*region FOOTER */
