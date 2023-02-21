@@ -349,6 +349,16 @@ text-decoration: none;
 
 #app_footer {
     background-color: var(--footer);
+    color: var(--light);
+    padding: 2rem;
+}
+
+#app_footer .container_sm p{
+    padding-bottom: 3rem;
+}
+
+#app_footer a {
+    color: var(--secondary);
 }
 
 /*endregion FOOTER */
