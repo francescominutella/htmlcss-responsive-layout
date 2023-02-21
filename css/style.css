@@ -69,6 +69,7 @@ section {
 
 .face img{
     width: 40%;
+    border-radius: 50%;
 }
 
 
@@ -292,7 +293,7 @@ text-decoration: none;
 .btn_secondary {
     font-weight: bold;
     background-color: var(--secondary);
-    color: white;
+    color: var(--light);
 }
 
 /* #endregion benefit */
@@ -306,14 +307,40 @@ text-decoration: none;
     padding: 0.75rem 0;
 }
 
-
 .about .secondary{
     color: var(--secondary);
     font-size: 2rem;
 }
 
-
 /* #endregion about */
+
+/* #region container_sm */
+
+.call_to_action{
+    background-color:var(--secondary);
+}
+
+.container_sm{
+    max-width: 479px;
+    margin: auto;
+}
+
+.container_sm span{
+    color: lightgrey;
+    font-size: 1rem;
+    font-weight: bold;
+    padding-bottom: 1rem;
+}
+
+.btn_light {
+    font-weight: bold;
+    background-color: var(--light);
+    color: var(--secondary);
+}
+
+/* #endregion container_sm */
+
+
 
 
 /*endregion MAIN */
