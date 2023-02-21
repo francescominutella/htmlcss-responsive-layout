@@ -343,8 +343,6 @@ text-decoration: none;
         /* TABLET */
     }
 
-
-
 }
 
 /* #endregion min768px*/
@@ -400,8 +398,15 @@ text-decoration: none;
         width: calc(100% / 12 * 12);
         /* TABLET */
     }
+
     .planning .row {
         justify-content: center;
+    }
+
+    .testimonial .card {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
     }
 
 }
