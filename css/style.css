@@ -508,6 +508,10 @@ section {
         /* TABLET */
     }
 
+    #app_header .container i {
+        display: none;
+    }
+
     .planning .row {
         justify-content: center;
     }
