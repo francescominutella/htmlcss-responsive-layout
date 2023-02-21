@@ -146,6 +146,9 @@ section {
 #app_header .container ul {
     display: none;
 }
+#app_header .container .btn {
+    display: none;
+}
 
 /* header@medi */
 
