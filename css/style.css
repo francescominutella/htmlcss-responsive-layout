@@ -25,7 +25,9 @@ body {
 img {
     max-width: 100%;
 }
-
+.txt_center{
+    text-align: center;
+}
 
 /* #endregion UTILITY */
 
