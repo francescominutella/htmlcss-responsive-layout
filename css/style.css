@@ -269,7 +269,9 @@ text-decoration: none;
     gap: 1rem;
 }
 
-
+.testimonial .face img{
+    width: 40%;
+}
 
 
 
