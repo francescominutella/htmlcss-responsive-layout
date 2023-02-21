@@ -327,12 +327,18 @@ section {
         /* TABLET */
     }
     .card_lg_phone{
-        display: block;
-    }
-    .card_w60, .card_40 {
+        display: flex;
+        flex-wrap: wrap;
         width: 100%;
-        margin: 0;
     }
+    .card_w60{
+        width: 100%;
+    }
+    .card_w40 img{
+        width: 100%;
+    }
+   
+   
 }
 
 /* #endregion min768px*/
