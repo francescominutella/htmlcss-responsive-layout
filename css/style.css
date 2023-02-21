@@ -257,8 +257,9 @@ text-decoration: none;
 
 /* #region testimonial */
 
-.card_testimonial {
+.testimonial .card {
     margin: 1rem 0;
+    background-color: var(--secondary);
 }
 
 .txt_committed {
