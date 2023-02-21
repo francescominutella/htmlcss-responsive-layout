@@ -47,6 +47,7 @@ img {
     padding: 0.5rem 0.5rem;
     display: inline-block;
     border-radius: 50px;
+    text-decoration: none;
 }
 
 /* [class^="col_"] {
@@ -276,9 +277,22 @@ text-decoration: none;
 }
 
 
-
-
 /* #endregion testimonial */
+
+/* #region benefit */
+
+.benefit .card {
+    margin: 1rem 0;
+    background-color: var(--light);
+}
+
+.btn_secondary {
+    font-weight: bold;
+    background-color: var(--secondary);
+    color: white;
+}
+
+/* #endregion benefit */
 
 /*endregion MAIN */
 
