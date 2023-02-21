@@ -67,6 +67,11 @@ section {
     text-align: center;
 }
 
+.face img{
+    width: 40%;
+}
+
+
 /* #endregion COMMON */
 
 
@@ -272,9 +277,6 @@ text-decoration: none;
     gap: 1rem;
 }
 
-.testimonial .face img{
-    width: 40%;
-}
 
 
 /* #endregion testimonial */
@@ -303,6 +305,7 @@ text-decoration: none;
 .about h2, .about p{
     padding: 0.75rem 0;
 }
+
 
 .about .secondary{
     color: var(--secondary);
