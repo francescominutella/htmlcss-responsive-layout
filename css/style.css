@@ -124,16 +124,11 @@ section {
 
 #app_header ul a {
     text-decoration: none;
-    color: black;
+    color: var(--light);
 }
 
 #app_header .menu_rgt {
     justify-content: end;
-}
-
-#app_header ul a {
-    text-decoration: none;
-    color: black;
 }
 
 .btn_header {
@@ -148,6 +143,10 @@ section {
 }
 #app_header .container .btn {
     display: none;
+}
+#app_header .container i {
+    display: block;
+    text-align: right;
 }
 
 /* header@medi */
@@ -517,6 +516,12 @@ section {
     .col_lg_12 {
         width: calc(100% / 12 * 12);
         /* TABLET */
+    }
+    #app_header .container ul {
+        display: flex;
+    }
+    #app_header .container .btn{
+        display: flex;
     }
 
     #app_header .container i {
